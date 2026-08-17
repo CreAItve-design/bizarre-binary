@@ -2,7 +2,7 @@
 title: "The Producer’s Constitution: Advanced Frequency Allocation and Mix Separation"
 description: "A comprehensive guide to eliminating low-end mud, using sidechain compression, and configuring stereo fields for B2C music production."
 pubDate: "Aug 17, 2026"
-heroImage: "/placeholder-hero.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 The Producer’s Constitution: Advanced Frequency Allocation and Mix Separation
