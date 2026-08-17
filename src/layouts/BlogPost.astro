@@ -14,46 +14,26 @@ import '../styles/global.css';
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
-		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-			}
-			.hero-image {
-				width: 100%;
-			}
-			.hero-image img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
-			}
-			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
-			}
-			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
-			}
-			.title h1 {
-				margin: 0 0 0.5em 0;
-			}
-			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
-			}
-			.last-updated-on {
-				font-style: italic;
-			}
-		</style>
+		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Sample Writing Portfolio",
+  "creator": {
+    "@type": "Person",
+    "name": "Crystal Morales",
+    "description": "Content writer specializing in making technical, dense, or complex topics clear and accessible for B2C audiences.",
+    "knowsAbout": [
+      "Human-AI Collaboration",
+      "Technical Translation",
+      "Executive Function Support",
+      "Reader Accessibility",
+      "Clear Step-by-Step Documentation"
+    ]
+  },
+  "keywords": "Clear Technical Writing, Layman Explanations, B2C Blog Content, Easy Documentation"
+}
+</script>
 	</head>
 
 	<body>
